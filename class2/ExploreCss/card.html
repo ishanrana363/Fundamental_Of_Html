@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+            width: 300px;
+            overflow: hidden;
+            margin: 20px;
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+        }
+
+        .card-header h2 {
+            margin: 0;
+        }
+
+        .card-image img {
+            width: 300px;
+            /* padding: 0 25px;
+            margin-left: 5px; */
+            height: auto;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-body p {
+            margin: 0;
+        }
+
+        .card-footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card-footer button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .card-footer button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h2>Card Title</h2>
+        </div>
+        <div class="card-image">
+            <img src="/class2//ExploreCss//img/ishanrana.png" alt="Card Image">
+        </div>
+        <div class="card-body">
+            <p>This is some text inside the card body. It provides a brief description or information.</p>
+        </div>
+        <div class="card-footer">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
