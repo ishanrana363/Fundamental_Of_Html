@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Padding and Margin Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            /* Padding inside the box */
+            margin: 30px;
+            /* Margin outside the box */
+            border: 2px solid #fff;
+            text-align: center;
+        }
+        .border-div{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="border-div">
+        <div class="box">This is a box with padding and margin.</div>
+    </div>
+</body>
+
+</html>

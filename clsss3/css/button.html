@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Styled Buttons</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        button {
+            background-color: #4CAF50;
+            /* Green background */
+            border: none;
+            /* Remove default border */
+            color: white;
+            /* White text */
+            padding: 15px 32px;
+            /* Padding inside the button */
+            text-align: center;
+            /* Centered text */
+            text-decoration: none;
+            /* Remove underline */
+            display: inline-block;
+            /* Inline element */
+            font-size: 16px;
+            /* Text size */
+            margin: 4px 2px;
+            /* Margin outside the button */
+            cursor: pointer;
+            /* Pointer cursor on hover */
+            border-radius: 4px;
+            /* Rounded corners */
+        }
+
+        button:hover {
+            background-color: #45a049;
+            /* Darker green background */
+        }
+
+        .icon-btn {
+            padding: 10px 20px;
+        }
+
+        .icon-btn i {
+            margin-right: 5px;
+            /* Space between icon and text */
+        }
+    </style>
+</head>
+
+<body>
+    <button class="icon-btn"><i class="fa fa-download"></i> Download</button>
+
+    <button class="disabled-btn" disabled>Disabled</button>
+</body>
+
+</html>
