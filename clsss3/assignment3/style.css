@@ -54,3 +54,57 @@
     background-color: rgb(25, 84, 39) ;
     color: white;
 }
+
+.cardlist{
+    padding: 0px 60px;
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    grid-gap: 30px;
+}
+.card {
+    width: 300px;
+    background-color: gray;
+    border: 3px dotted goldenrod;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(239, 186, 186, 0.15);
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.cart-header {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(200, 70%, 100%) ;
+}
+.card-img img {
+    width: 100%;
+}
+.card-body{
+    display: flex;
+    text-align: center;
+    font-weight:900;
+    font-size: large;
+    color: hsl(90, 80%, 45%);
+}
+.cart-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.cart-footer button {
+    background-color: bisque;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+}
+.cart-footer button:hover{
+    background-color: rgb(229, 202, 94);
+    transition: all .3s;
+}
